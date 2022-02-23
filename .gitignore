@@ -27,3 +27,6 @@ phpunit.xml
 
 # Git
 !.gitkeep
+
+bin/*
+coverage/*
