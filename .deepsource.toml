@@ -14,3 +14,8 @@ enabled = true
 
   [analyzers.meta]
   plugins = ["react"]
+  environment = ["nodejs","browser","jest"]
+  dependency_file_paths = [
+  "src/js/"
+  ]
+  style_guide = "airbnb"
