@@ -26,15 +26,15 @@ jobs:
         cache: 'npm'
 
     - uses: actions/cache@v2
-        with:
-          path: '**/node_modules'
-          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+      with:
+        path: '**/node_modules'
+        key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
 
     - name: yarn install
       run: yarn
       
     - name: run jest
-        run: yarn test
+      run: yarn test
 
     - name: Coveralls
       uses: coverallsapp/github-action@master
