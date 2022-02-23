@@ -19,3 +19,7 @@ enabled = true
   "src/js/"
   ]
   style_guide = "airbnb"
+
+[[transformers]]
+name = "prettier"
+enabled = true
