@@ -5,5 +5,17 @@ test_patterns = ["tests/js/*.js"]
 exclude_patterns = ["tests/js/setupTests.js"]
 
 [[analyzers]]
+name = "test-coverage"
+enabled = true
+
+[[analyzers]]
 name = "javascript"
 enabled = true
+
+    [analyzers.meta]
+    plugins = ["react"]
+    environment = ["nodejs","browser","jest"]
+    dependency_file_paths = [
+    "src/js/"
+    ]
+    style_guide = "airbnb"
