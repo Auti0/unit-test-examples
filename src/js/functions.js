@@ -3,5 +3,5 @@
  * @return {string} The answer to life, universe and everything.
  */
 export function getAnswer() {
-	return '42';
+  return "42";
 }

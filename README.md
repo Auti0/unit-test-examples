@@ -49,7 +49,7 @@ Then, run the `test` script, defined in `package.json`:
 $ yarn test
 ```
 
-----
+---
 
 In case you want to use [npm](https://github.com/npm/npm) instead, do it like so:
 
