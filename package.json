@@ -2,9 +2,7 @@
   "name": "unit-test-examples",
   "version": "1.1.0",
   "description": "Example code for my talks and workshops on unit testing.",
-  "keywords": [
-
-  ],
+  "keywords": [],
   "homepage": "https://github.com/auti0/unit-test-examples",
   "bugs": "https://github.com/auti0/unit-test-examples/issues",
   "license": "MIT",
