@@ -1,10 +1,10 @@
-import { getAnswer } from '../../src/js/functions';
+import { getAnswer } from "../../src/js/functions";
 
-describe( 'getAnswer', () => {
-	test( 'should return the answer to life, universe and everything', () => {
-		const expected = '42';
-		const actual = getAnswer();
+describe("getAnswer", () => {
+  test("should return the answer to life, universe and everything", () => {
+    const expected = "42";
+    const actual = getAnswer();
 
-		expect( actual ).toBe( expected );
-	} );
-} );
+    expect(actual).toBe(expected);
+  });
+});
