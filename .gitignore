@@ -31,3 +31,5 @@ phpunit.xml
 bin/*
 coverage/*
 .coverage/*
+codecov
+tmp/*

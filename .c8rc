@@ -3,7 +3,7 @@
   "clean": false,
   "include": [
     "src/js/*.js"
-    ],
+  ],
   "exclude": [
     "integration-tests/*",
     "**/test/*",
@@ -16,7 +16,9 @@
     ".coverage/*",
     "scheduler/worker.js",
     "tests/js/setupTests.js"
-    ],
-    "report-dir": ".coverage",
-    "reporter": ["lcov","text", "cobertura", "clover", "json-summary", "json"]
+  ],
+  "report-dir": ".coverage",
+  "reporter": [
+    "cobertura"
+  ]
 }
