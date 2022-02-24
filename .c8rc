@@ -19,7 +19,6 @@
   ],
   "report-dir": ".coverage",
   "reporter": [
-    "cobertura",
     "lcov"
   ]
 }
