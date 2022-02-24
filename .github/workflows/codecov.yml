@@ -38,3 +38,4 @@ jobs:
         token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
         verbose: true # optional (default = false)
         directory: .coverage/
+        files: ./cobertura-coverage.xml
