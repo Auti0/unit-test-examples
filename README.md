@@ -3,6 +3,7 @@
 Originally forked from <https://github.com/tfrommen/unit-test-examples>
 
 Using this repo to test various code coverage and static code analyzers such as coveralls, codecov, sonarqube, etc.
+
 ## Getting Started
 
 Install with [Yarn](https://github.com/yarnpkg/yarn):
